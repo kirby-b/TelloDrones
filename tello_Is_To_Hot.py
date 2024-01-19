@@ -10,5 +10,7 @@ temp = drone.get_temperature()
 if int(temp) >= 50:
     print("Temperature is too high turning on motor for cooling")
     drone.turn_motor_on()
+    sleep(50)
+    drone.turn_motor_off()
 # turns on the fan motor without taking off to
 # cool the drone if it gets to hot. Feel free t adjust
