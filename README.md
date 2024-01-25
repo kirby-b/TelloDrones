@@ -14,3 +14,6 @@ Make sure both packets as under IP 192.168.10.1 ,  port 8889 , and type UDP
 https://djitellopy.readthedocs.io/en/latest/tello/
 
 https://pypi.org/project/djitellopy/
+
+# Uses for these scripts
+These scripts are not very complicated and are very basic at their core, But they can still be a fun way to learn how Tello Drones work. If you are a teacher who somehow found this repo, please feel free to use it. 
