@@ -12,6 +12,6 @@ drone.move_up(100)
 for i in range(6):
     sleep(10)
     drone.get_flight_time()
-# Turns on the camera and shows front and down view
+# gets the flight time every 10 seconds for 60 seconds
 drone.land()
 # lands
