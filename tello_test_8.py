@@ -34,3 +34,7 @@ sleep(8)
 # Rotates 360 in both directions
 drone.land()
 # lands
+drone.turn_motor_on()
+sleep(20)
+drone.turn_motor_off()
+# Turns the cooling motor on for 20 seconds
