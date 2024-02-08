@@ -9,4 +9,4 @@ sleep(1)
 drone.turn_motor_on()
 sleep(30)
 drone.turn_motor_off()
-# Turns the colling motor on for 30 seconds
+# Turns the cooling motor on for 30 seconds
