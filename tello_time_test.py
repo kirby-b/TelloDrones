@@ -15,3 +15,7 @@ for i in range(6):
 # gets the flight time every 10 seconds for 60 seconds
 drone.land()
 # lands
+drone.turn_motor_on()
+sleep(20)
+drone.turn_motor_off()
+# Turns the cooling motor on for 10 seconds
