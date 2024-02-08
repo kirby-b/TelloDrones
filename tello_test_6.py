@@ -4,16 +4,17 @@ from time import sleep
 drone = tello.Tello()
 
 drone.connect()
+sleep(1)
 drone.takeoff()
-sleep(3)
+sleep(4)
 # connects and takes off
 for i in range(3):
-    drone.flip_left()
-    sleep(5)
+    drone.flip("l")
+    sleep(8)
     drone.rotate_clockwise(360)
-    sleep(5)
-    drone.flip_right()
-    sleep(5)
+    sleep(8)
+    drone.flip("r")
+    sleep(8)
 # flips left, rotates all the way around, flips back 3 times
 drone.land()
 # lands
