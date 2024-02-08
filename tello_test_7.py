@@ -17,6 +17,6 @@ sleep(8)
 drone.move_back(100)
 sleep(8)
 drone.rotate_clockwise(360)
-# moves up then down
+# moves up, down, and rotates 360
 drone.land()
 # lands
