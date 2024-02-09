@@ -5,9 +5,13 @@ drone = tello.Tello()
 
 drone.connect()
 sleep(1)
+# connects
+drone.query_battery()
+# gets the battery percent
+sleep(1)
 drone.takeoff()
 sleep(4)
-# connects and takes off
+# takes off
 drone.move_up(100)
 for i in range(6):
     sleep(10)
