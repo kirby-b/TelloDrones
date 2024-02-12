@@ -7,10 +7,10 @@ drone.connect()
 sleep(1)
 drone.initiate_throw_takeoff() 
 sleep(5)
-# connects and takes off
+# connects and attempts thrown take off
 drone.flip("b")
 drone.land()
-# lands
+# flips and lands
 drone.turn_motor_on()
 sleep(10)
 drone.turn_motor_off()
