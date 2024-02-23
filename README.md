@@ -9,6 +9,8 @@ You will also need packet sender to use UDP and connect to the drone in sdk mode
 
 Another thing to look out for is the drone out right refusing to do anything, or error previously working commands. In my experience with the drones I used, It is always either to hot or it just needs a quick reset(long press the ON button for 5 seconds). If it is to hot you can either run my cool down script, or just leave it alone for a minute.
 
+Lastly, many of the library commands are based on the camera of the tello. This means you must be in a well lit area when flying it.
+
 You can also make an ap command to connect your drone to your wifi with: name "ap" and ASCII of "ap ROUTER_SSID ROUTER_PASSWORD" . This makes it easy to create a drone swarm
 
 Make sure both packets as under IP 192.168.10.1 ,  port 8889 , and type UDP
