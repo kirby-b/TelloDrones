@@ -11,7 +11,7 @@ drone.query_battery()
 sleep(1)
 drone.takeoff()
 sleep(4)
-#Takes off
+# Takes off
 drone.rotate_counter_clockwise(90)
 sleep(10)
 drone.rotate_clockwise(90)
