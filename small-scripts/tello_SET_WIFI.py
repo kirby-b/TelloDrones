@@ -6,4 +6,4 @@ drone.connect()
 # Connects to the drone
 
 drone.set_wifi_credentials('TelloDrone1!', 'Password123!')
-# sets the wifi ssid and password. Definately change these to your own.
+# sets the Wi-Fi ssid and password. Definitely change these to your own.
