@@ -18,7 +18,3 @@ sleep(5)
 # moves forward
 drone.land()
 # lands
-drone.turn_motor_on()
-sleep(10)
-drone.turn_motor_off()
-# Turns the cooling motor on for 10 seconds
