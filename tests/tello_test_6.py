@@ -22,7 +22,3 @@ for i in range(3):
 # flips left, rotates all the way around, flips back 3 times
 drone.land()
 # lands
-drone.turn_motor_on()
-sleep(10)
-drone.turn_motor_off()
-# Turns the cooling motor on for 10 seconds
