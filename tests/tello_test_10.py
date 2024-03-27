@@ -20,14 +20,14 @@ def main():
     # Sets speed
     for i in range(5):
         drone.flip("l")
-        sleep(5)
+        sleep(7)
         drone.rotate_clockwise(360)
         sleep(5)
         square()
     # flips the drone left and does a 360 clockwise 5 times
     for i in range(5):
         drone.flip("r")
-        sleep(5)
+        sleep(7)
         drone.rotate_counter_clockwise(360)
         sleep(5)
         square()
