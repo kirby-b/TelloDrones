@@ -13,13 +13,13 @@ drone.takeoff()
 sleep(4)
 # takes off
 drone.flip("l")
-sleep(1)
+sleep(9)
 drone.flip("r")
-sleep(1)
+sleep(9)
 drone.flip("f")
-sleep(1)
+sleep(9)
 drone.flip("b")
-sleep(5)
+sleep(9)
 # flips the drone left, right, backward, then forward
 drone.land()
 # lands
