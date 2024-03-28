@@ -1,3 +1,4 @@
+#This is a long distance test
 from djitellopy import tello
 from time import sleep
 
@@ -13,8 +14,15 @@ drone.takeoff()
 sleep(4)
 # takes off
 # connects and takes off
-drone.move_forward(100)
+drone.move_forward(400)
+sleep(6)
+drone.rotate_clockwise(180)
+sleep(5)
+drone.move_forward(400)
+sleep(6)
+drone.rotate_clockwise(180)
 sleep(5)
 # moves forward
 drone.land()
 # lands
+drone.end()
