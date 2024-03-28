@@ -1,4 +1,4 @@
-# This will be the same as 7 but I set the speed higher
+# This script will be the same as 7 but I set the speed higher
 from djitellopy import tello
 from time import sleep
 
@@ -24,7 +24,10 @@ sleep(6)
 drone.move_back(100)
 sleep(6)
 drone.rotate_clockwise(360)
-# moves up, down, and rotates 360
+sleep(6)
+drone.rotate_counter_clockwise(360)
+sleep(6)
+# moves up, down, and rotates 360 in both direction
 drone.land()
 # lands
 drone.end()
