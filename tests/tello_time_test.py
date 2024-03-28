@@ -1,3 +1,4 @@
+# This is a simple test to make sure the drone can record flight time
 from djitellopy import tello
 from time import sleep
 

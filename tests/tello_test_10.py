@@ -1,4 +1,5 @@
-# Faster version of 5 wth some extras
+# This script is a faster version of 5 with an added function that makes the drone fly in a square. 
+# This was both for stress testing and making sure you can use functions
 from djitellopy import tello
 from time import sleep
 

@@ -1,3 +1,4 @@
+# This script is test from moving up and down
 from djitellopy import tello
 from time import sleep
 

@@ -1,3 +1,4 @@
+# This script is a simple flip test
 from djitellopy import tello
 from time import sleep
 

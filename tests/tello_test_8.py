@@ -1,3 +1,4 @@
+# This script is a stress test for the drone using most commands
 from djitellopy import tello
 from time import sleep
 

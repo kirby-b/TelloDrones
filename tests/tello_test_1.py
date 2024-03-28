@@ -1,3 +1,4 @@
+# This script is a simple test to test turning
 from djitellopy import tello
 from time import sleep
 

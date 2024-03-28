@@ -1,4 +1,4 @@
-#This is a long distance test
+# This script is a long distance test
 from djitellopy import tello
 from time import sleep
 

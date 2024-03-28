@@ -1,3 +1,4 @@
+# This script is a sort of stress test to check looping and making sure the drone can go for a while
 from djitellopy import tello
 from time import sleep
 

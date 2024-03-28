@@ -1,3 +1,4 @@
+# This script turns on and shows the drone camera
 import cv2
 from djitellopy import tello
 

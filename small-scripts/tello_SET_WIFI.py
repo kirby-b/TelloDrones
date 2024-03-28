@@ -1,3 +1,4 @@
+# This script sets the wifi and password on the tello
 from djitellopy import tello
 
 drone = tello.Tello()

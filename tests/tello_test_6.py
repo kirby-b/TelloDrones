@@ -1,3 +1,4 @@
+# This script is a loop test and stress test for flipping. The rotation is to test drift
 from djitellopy import tello
 from time import sleep
 

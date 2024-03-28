@@ -1,3 +1,4 @@
+# This script turns on the motor meant to cool down the drone if it gets to hot
 from djitellopy import tello
 from time import sleep
 

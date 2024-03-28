@@ -1,3 +1,4 @@
+# This script checks the drone battery
 from djitellopy import tello
 
 drone = tello.Tello()
@@ -7,5 +8,4 @@ drone.connect()
 
 drone.query_battery()
 # gets the battery percent
-
 drone.end()

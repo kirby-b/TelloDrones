@@ -1,3 +1,4 @@
+# This script tries to initiate a thrown takeoff
 from djitellopy import tello
 from time import sleep
 
