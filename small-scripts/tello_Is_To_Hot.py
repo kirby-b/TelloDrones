@@ -15,3 +15,4 @@ if int(temp) >= 50:
     sleep(5)
 # turns on the fan motor without taking off to
 # cool the drone if it gets to hot. Feel free t adjust
+drone.end()

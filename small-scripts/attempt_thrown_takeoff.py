@@ -11,3 +11,4 @@ sleep(5)
 drone.flip("b")
 drone.land()
 # flips and lands
+drone.end()

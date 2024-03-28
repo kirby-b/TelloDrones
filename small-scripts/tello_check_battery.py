@@ -7,3 +7,5 @@ drone.connect()
 
 drone.query_battery()
 # gets the battery percent
+
+drone.end()

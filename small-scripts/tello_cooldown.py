@@ -10,3 +10,4 @@ drone.turn_motor_on()
 sleep(30)
 drone.turn_motor_off()
 # Turns the cooling motor on for 30 seconds
+drone.end()
