@@ -14,11 +14,12 @@ sleep(4)
 # takes off
 for i in range(3):
     drone.flip("l")
-    sleep(7)
+    sleep(6)
     drone.rotate_clockwise(360)
-    sleep(10)
-    drone.flip("r")
     sleep(7)
+    drone.flip("r")
+    sleep(5)
 # flips left, rotates all the way around, flips back 3 times
 drone.land()
 # lands
+drone.end()
