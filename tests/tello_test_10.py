@@ -36,6 +36,8 @@ def main():
     drone.land()
     # lands
     drone.end()
+
+
 def square():
     for i in range(4):
         drone.rotate_clockwise(90)
@@ -43,6 +45,7 @@ def square():
         drone.move_forward(100)
         sleep(6)
     # Flies in a square by turning 90 degrees and moving forward 4 times
+
 
 if __name__ == "__main__":
     main()

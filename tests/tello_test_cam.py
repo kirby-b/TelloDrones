@@ -2,6 +2,7 @@
 import cv2
 from djitellopy import tello
 
+
 def show_camera_frames(drone):
     # Shows the camera frames through cv2
     while True:
@@ -12,6 +13,7 @@ def show_camera_frames(drone):
     cv2.destroyAllWindows()
     drone.end()
 
+
 def main():
     # Initialize drone
     drone = tello.Tello()
@@ -21,6 +23,7 @@ def main():
     drone.streamon()
     # Call the cv camera function
     show_camera_frames(drone)
+
 
 if __name__ == "__main__":
     main()
