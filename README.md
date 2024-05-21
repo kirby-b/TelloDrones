@@ -37,6 +37,7 @@ All solutions for bugs I know of can be found here or in the below links
 * Solution: Some of the drone commands are based on the camera on the drone and they need light to be done, so make sure you are in a well lit area. Another possible solution is to add more time between commands as sometimes the drones will end up running multiple commands at once. Lastly, the things mentioned in the solution for problem 1 have a possibility of working
 3. Problem: The drone flips to one side when it takes off
 * Solution: One of the sides has blades flipped and you should just switch them around.
+  
 Another thing that likes to randomly work in terms of bug fixing is just doing a soft reset by long pressing the power button, or even just turning it off and on again.
 
 ## Links
