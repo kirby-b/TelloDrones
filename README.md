@@ -33,7 +33,7 @@ All solutions for bugs I know of can be found here or in the below links
 
 1. Problem: Drone keeps erroring and saying it doesnt recognize commands
 * Solution: This is usyally because the drone is to hot or the firmware needs updated. The update can be done in the [dji tello app](https://www.dji.com/downloads/djiapp/tello)
-2. Problem: The successfully does some commands, but fails to do and error on others. This includes somethings only failing the last command
+2. Problem: The successfully does some commands and the fails/errors.
 * Solution: Some of the drone commands are based on the camera on the drone and they need light to be done, so make sure you are in a well lit area. Another possible solution is to add more time between commands as sometimes the drones will end up running multiple commands at once. Lastly, the things mentioned in the solution for problem 1 have a possibility of working
 3. Problem: The drone flips to one side when it takes off
 * Solution: One of the sides has blades flipped and you should just switch them around.
