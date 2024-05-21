@@ -2,7 +2,6 @@
 from djitellopy import tello
 from time import sleep
 import threading
-import signal
 
 drone = tello.Tello()
 
