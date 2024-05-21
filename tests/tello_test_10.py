@@ -10,8 +10,6 @@ def main():
     drone.connect()
     sleep(1)
     # connects
-    drone.query_battery()
-    # gets the battery percent
     sleep(1)
     drone.takeoff()
     sleep(4)
