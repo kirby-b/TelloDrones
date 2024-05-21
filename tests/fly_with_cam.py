@@ -17,7 +17,7 @@ def show_camera_frames():
     cv2.destroyAllWindows()
 
 def movement():
-    sleep(1)
+    sleep(4)
     drone.move_up(60)
     sleep(7)
     drone.move_down(60)
