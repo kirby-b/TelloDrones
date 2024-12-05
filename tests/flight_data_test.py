@@ -1,4 +1,4 @@
-# This script to test multi-threading and data query
+# This script is to test multi-threading and data query
 from djitellopy import tello
 from time import sleep
 import threading
@@ -8,17 +8,22 @@ drone = tello.Tello()
 def main():
     drone.connect()
     sleep(1)
-    # connects
+    # Connects to drone so it can be controlled, and then
+    # sleeps to make sure it is ready
     
-    t1 = threading.Thread(target=get_data, args=())
-    # Makes the drone move
-    t2 = threading.Thread(target=movement, args=())
+    t1 = threading.Thread(target=get_data, args=()) 
+    # Starts a data thread so we can get flight data while the drone flys
+    
+    t2 = threading.Thread(target=movement, args=()) 
+    # Starts a movement thread so the drone can move
  
     t1.start()
     t2.start()
+    # Starts the threads
  
     t1.join()
     t2.join()
+    # Joins the threads so the program can end
     
     drone.end()
 
@@ -56,6 +61,7 @@ def movement():
 
 
 def get_data():
+    # Gets flight data so we can test if how it is working while the drone flys
     drone.query_sdk_version()
     drone.query_serial_number()
     while True:
