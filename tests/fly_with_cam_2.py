@@ -12,6 +12,7 @@ def show_camera_frames():
     while True:
         frame = drone.get_frame_read().frame
         cv2.imshow("Frame", frame)
+        # While it is running, cv2 gets the current frame on the camera and outputs it to a window
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
     cv2.destroyAllWindows()
@@ -34,19 +35,20 @@ def movement():
 def main():
     # Connect to drone
     drone.connect()
-    # Turn on drone cam
+    # Turn on drone cam so we can get frames
     sleep(1)
     drone.takeoff()
     sleep(3)
     # Takes off
     drone.streamon()
-    # Call the cv camera function
+    # Call the cv camera function thread so we actually see the drone cam
     t1 = threading.Thread(target=show_camera_frames, args=())
-    # Makes the drone move
+    # Makes the drone move so its not just a still image
     t2 = threading.Thread(target=movement, args=())
  
     t1.start()
     t2.start()
+    # Starts the threads
  
     t1.join()
     t2.join()
