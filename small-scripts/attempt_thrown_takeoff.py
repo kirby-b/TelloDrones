@@ -8,7 +8,8 @@ drone.connect()
 sleep(1)
 drone.initiate_throw_takeoff() 
 sleep(5)
-# connects and attempts thrown take off
+# connects and attempts thrown take off.
+# This is iffy and I rarely get the drone to recognize it had been thrown
 drone.flip("b")
 drone.land()
 # flips and lands
