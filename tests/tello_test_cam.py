@@ -8,6 +8,7 @@ def show_camera_frames(drone):
     while True:
         frame = drone.get_frame_read().frame
         cv2.imshow("Frame", frame)
+        # While it is running, cv2 gets the current frame on the camera and outputs it to a window
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
     cv2.destroyAllWindows()
@@ -17,7 +18,8 @@ def show_camera_frames(drone):
 def main():
     # Initialize drone
     drone = tello.Tello()
-    # Connect to drone
+    # Connect to drone. You dont need to sleep after 
+    # connecting usually when using non flight commands
     drone.connect()
     # Turn on drone cam
     drone.streamon()
