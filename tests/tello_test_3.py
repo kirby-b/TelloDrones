@@ -6,7 +6,7 @@ drone = tello.Tello()
 
 drone.connect()
 sleep(1)
-# connects
+# connects and sleeps to ensure it is ready
 sleep(1)
 drone.takeoff()
 sleep(4)
@@ -20,7 +20,8 @@ drone.move_forward(400)
 sleep(6)
 drone.rotate_clockwise(180)
 sleep(5)
-# moves forward
+# moves forward and turns around twice.
+# It sleeps in between each so the drone doesnt error
 drone.land()
 # lands
 drone.end()
