@@ -6,7 +6,7 @@ drone = tello.Tello()
 
 drone.connect()
 sleep(1)
-# connects
+# connects and sleeps to ensure it is ready
 sleep(1)
 drone.takeoff()
 sleep(4)
